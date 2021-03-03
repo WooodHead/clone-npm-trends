@@ -1,0 +1,16 @@
+.trends {
+  width: 80%;
+  margin: 0 auto;
+}
+.trends ul.keywords li.keyword {
+  list-style: none;
+  display: inline-block;
+}
+.trends ul.keywords li.keyword .keyword-box {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2.2px solid #d0d0d0;
+}
+.trends ul.keywords li.keyword:not(:first-child) {
+  margin-left: 5px;
+}
